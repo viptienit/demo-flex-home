@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project_flex_home {
+    padding: 0;
+  }
+  .fz_33 {
+    font-size: 5vw;
+  }
+  .fz_24 {
+    font-size: 2.2vw;
+  }
+  .fz_16 {
+    font-size: 1.6vw;
+    line-height: 2vw;
+  }
+
+  .project_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .select_tower {
+    padding-right: 3vw;
+  }
+  .select_tower p:nth-child(3),
+  .select_tower p:nth-child(2) {
+    padding-right: 5vw;
+  }
+  .select_tower p:nth-child(3),
+  .select_tower p:nth-child(4) {
+    padding-left: 5vw;
+  }
+  .icon_tower {
+    width: 4vw;
+    height: 4vw;
+    margin-right: 2vw;
+  }
+  .img_tower {
+    margin: 0;
+  }
+  .img_tower img {
+    margin: 5vw 0;
+    width: 60vw;
+  }
+  .img_structure {
+    width: 45vw;
+    margin-left: 23vw;
+  }
+  .structure {
+    width: 100vw;
+  }
+  .content_structure {
+    height: 15vw;
+    width: 150vw;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .content_info {
+    height: 12vw;
+    width: 28vw;
+    padding: 0.6vw;
+    margin-right: 2vw;
+  }
+  .info {
+    height: 10vw;
+  }
+  .info p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .img_content,
+  .img_content img {
+    width: 11vw;
+    height: 10vw;
+  }
+  .select_floor_child {
+    width: 60vw;
+    height: 17vw;
+    flex-direction: row;
+    align-items: center;
+  }
+  .select_number {
+    margin: 1.67vw 0;
+    padding: 3vw 0;
+    width: 100%;
+    height: unset;
+    display: flex;
+    justify-content: space-evenly;
+    grid-column-gap: unset;
+    grid-row-gap: unset;
+  }
+  .select {
+    font-size: 2vw;
+    padding: 0 1vw;
+    width: 12vw;
+  }
+  .select_floor_child img {
+    width: 2vw;
+    height: 1vw;
+    transform: rotate(-90deg);
+  }
+  .select_number div {
+    height: 5vw;
+    width: 5vw;
+    line-height: 5vw;
+  }
+  .hiden_floor {
+    display: none;
+  }
+  div.hiden_lap {
+    display: block;
+    border: none;
+    font-weight: 700;
+  }
+
+  .footer {
+    width: 80vw;
+    margin-bottom: 4vw;
+  }
+  .footer img {
+    width: 25vw;
+  }
+  .link_footer {
+    width: 45vw;
+  }
+  img.icon_link {
+    width: 3vw;
+    height: 3vw;
+  }
+  img.icon_link_first {
+    height: 3.4vw;
+    width: 3vw;
+  }
+  .link_footer a {
+    font-size: 2.5vw;
+  }
+  .icon_link,
+  .icon_link_first {
+    margin-right: 1vw;
+  }
+}

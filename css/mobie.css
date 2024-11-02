@@ -1,0 +1,99 @@
+@media only screen and (max-width: 480px) {
+  .fz_33 {
+    font-size: 6.5vw;
+  }
+  .fz_24 {
+    font-size: 3.5vw;
+  }
+  .fz_16 {
+    font-size: 2.6vw;
+  }
+  .select_tower p:nth-child(3),
+  .select_tower p:nth-child(2) {
+    padding-right: 8vw;
+  }
+  .select_tower p:nth-child(3),
+  .select_tower p:nth-child(4) {
+    padding-left: 8vw;
+  }
+  .icon_tower {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .img_tower img {
+    width: 80vw;
+  }
+  .img_structure {
+    width: 70vw;
+    margin-left: 17vw;
+  }
+  .structure {
+    margin-bottom: 3vw;
+  }
+  .content_structure {
+    height: 25vw;
+    width: 300vw;
+  }
+  .content_info {
+    height: 22vw;
+    width: 45vw;
+  }
+  .info {
+    height: 17vw;
+  }
+
+  .img_content,
+  .img_content img {
+    width: 17vw;
+    height: 17vw;
+  }
+  .select_floor_child {
+    width: 85vw;
+  }
+  .select_number {
+    margin: 5vw 0;
+    padding: 3vw 0;
+  }
+  .select {
+    font-size: 3vw;
+    padding: 0 2vw;
+    width: 19vw;
+  }
+  .select_floor_child img {
+    width: 3vw;
+    height: 2vw;
+  }
+  .select_number div {
+    height: 8vw;
+    width: 8vw;
+    line-height: 8vw;
+  }
+  .hiden_floor {
+    display: none;
+  }
+  div.hiden_lap {
+    display: block;
+    border: none;
+    font-weight: 700;
+  }
+
+  .footer {
+    width: 90vw;
+    margin-top: 3vw;
+  }
+  .link_footer {
+    width: 50vw;
+  }
+  img.icon_link {
+    width: 4vw;
+    height: 4vw;
+  }
+  img.icon_link_first {
+    height: 4.4vw;
+    width: 4vw;
+  }
+  .link_footer a {
+    font-size: 3vw;
+  }
+}
