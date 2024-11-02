@@ -179,6 +179,10 @@ body {
   top: 0;
   transform: translate(-50%, -60%);
 }
+.select_floor_child img {
+  width: 1.155vw;
+  height: 0.5vw;
+}
 .select_number div {
   height: 2.083vw;
   line-height: 2.083vw;
