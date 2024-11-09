@@ -152,7 +152,7 @@ body {
     margin-right: 0.475vh;
   }
 }
-@media only screen and (max-aspect-ratio: 1919/1050) and (min-width: 768px) {
+@media only screen and (max-aspect-ratio: 1920/1050) and (min-width: 768px) {
   .container {
     width: 100vw;
     height: unset;
