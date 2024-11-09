@@ -53,8 +53,13 @@
   }
   .img_structure {
     width: 65.625vh;
-    margin-left: 4.59vh;
+    margin-left: 1.515vh;
     margin-top: 6.12vh;
+  }
+  .arrow {
+    width: 3.075vh;
+    height: 13.59vh;
+    margin-top: 43.125vh;
   }
   .compass,
   .compass img {
@@ -194,8 +199,13 @@
   }
   .img_structure {
     width: 87.5vw;
-    margin-left: 6.12vw;
+    margin-left: 2.02vw;
     margin-top: 8.16vw;
+  }
+  .arrow {
+    width: 4.1vw;
+    height: 18.125vw;
+    margin-top: 57.5vw;
   }
   .compass,
   .compass img {

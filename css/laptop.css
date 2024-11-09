@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #00000010;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -20,8 +21,8 @@ body {
     width: unset;
   }
   .fz_16 {
-    font-size: 1.52vh;
-    line-height: 1.71vh;
+    font-size: 1.57vh;
+    line-height: 2.432vh;
   }
   .fz_33 {
     font-size: 3.14vh;
@@ -69,7 +70,7 @@ body {
   }
   .img_structure {
     width: 66.68vh;
-    margin-left: 27.435vh;
+    margin-left: 24.365vh;
     margin-top: 9.145vh;
   }
   .compass,
@@ -82,6 +83,11 @@ body {
     padding-left: 2.3777vh;
     height: 22.8625vh;
     width: 182.9vh;
+  }
+  .arrow {
+    width: 3.07vh;
+    height: 13.81vh;
+    margin-top: 31.62vh;
   }
   .content_info {
     height: 19.2045vh;
@@ -207,7 +213,7 @@ body {
   }
   .img_structure {
     width: 36.46vw;
-    margin-left: 15vw;
+    margin-left: 13.32vw;
     margin-top: 5vw;
   }
   .compass,
@@ -220,6 +226,11 @@ body {
     padding-left: 1.3vw;
     height: 12.5vw;
     width: 100vw;
+  }
+  .arrow {
+    width: 1.68vw;
+    height: 7.55vw;
+    margin-top: 17.29vw;
   }
   .content_info {
     height: 10.5vw;
