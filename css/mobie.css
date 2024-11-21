@@ -1,330 +1,41 @@
-@media only screen and (min-aspect-ratio: 9/20) and (max-width: 460px) {
+@media only screen and (max-width: 480px) {
   .container {
-    height: 100vh;
-    width: unset;
-  }
-  .fz_33 {
-    font-size: 2.547vh;
-  }
-  .fz_16 {
-    font-size: 1.35vh;
-    line-height: 1.647vh;
-  }
-  .fz_14 {
-    font-size: 1.197vh;
-  }
-  .project_flex_home {
-    padding-left: 1.9485vh;
-  }
-  .project_flex_home h1 {
-    padding-top: 4.347vh;
-  }
-  .project_info {
-    padding-top: 1.8495vh;
-  }
-  .project_info p:last-child {
-    padding-top: 1.323vh;
-  }
-  .select_tower {
-    margin: auto 1.9485vh;
-    padding: 1.143vh 0;
-  }
-  .select_tower p:nth-child(3),
-  .select_tower p:nth-child(2) {
-    padding-right: 1.8vh;
-  }
-  .select_tower p:nth-child(3),
-  .select_tower p:nth-child(4) {
-    padding-left: 1.8vh;
-  }
-  .underline {
-    text-decoration-thickness: 0.14985vh;
-  }
-  .icon_tower {
-    width: 2.997vh;
-    height: 2.997vh;
-    margin-right: 1.9485vh;
-  }
-  .img_structure {
-    width: 55.9485vh;
-    margin-left: 2.8485vh;
-    margin-top: 5.9985vh;
-  }
-  .arrow {
-    width: 2.7vh;
-    height: 13.5vh;
-    margin-top: 43.2vh;
-  }
-  .compass,
-  .compass img {
-    width: 4.95vh;
-    height: 4.95vh;
-    margin: 0;
-  }
-  .compass {
-    margin-top: 14.697vh;
-  }
-  .content_structure {
-    padding-left: 1.197vh;
-    height: 23.697vh;
-    width: 100vh;
-  }
-  .content_info {
-    height: 21.2985vh;
-    width: 37.8vh;
-    border-radius: 1.197vh;
-    padding: 1.8vh;
-    margin-right: 0.9vh;
-  }
-  .info {
-    height: 9.3375vh;
-  }
-  .img_content,
-  .img_content img {
-    width: 9.3375vh;
-    height: 9.3375vh;
-    margin-left: 0.09vh;
-  }
-  .img_tower {
-    margin: auto 0 auto 1.9125vh;
-  }
-  .img_tower img {
-    width: 36vh;
-    border-radius: 1.197vh;
-  }
-  .select_floor_child {
-    width: 33.525vh;
-    height: 6.3vh;
-    padding: 0;
-  }
-  .select_number {
-    margin: 0;
-    padding: 1.197vh 0;
-    margin: 0 1.8vh;
-  }
-  .select {
-    padding: 0 1.647vh;
-    width: 9.675vh;
-  }
-  .select_floor_child img {
-    width: 2.25vh;
-    height: 0.9vh;
-  }
-  .select_number div {
-    height: 3.897vh;
-    line-height: 3.897vh;
-    width: 3.897vh;
-  }
-  .footer {
-    margin-left: 0;
-    padding-right: 0;
-  }
-  .footer img {
-    width: 13.5vh;
-    margin-bottom: 0.45vh;
-  }
-  .link_footer {
-    width: 30.15vh;
-  }
-  img.icon_link {
-    width: 0.9072vh;
-    height: 0.9072vh;
-  }
-  img.icon_link_first {
-    height: 1.647vh;
-    width: 1.647vh;
-  }
-  .icon_link,
-  .icon_link_first {
-    margin-right: 1.35vh;
-  }
-}
-@media only screen and (max-aspect-ratio: 9/20) and (max-width: 460px) {
-  .container {
-    width: 100vw;
-    height: unset;
-  }
-  .fz_33 {
-    font-size: 5.66vw;
-  }
-  .fz_16 {
-    font-size: 3vw;
-    line-height: 3.66vw;
-  }
-  .fz_14 {
-    font-size: 2.66vw;
-  }
-  .project_flex_home {
-    padding-left: 4.33vw;
-  }
-  .project_flex_home h1 {
-    padding-top: 9.66vw;
-  }
-  .project_info {
-    padding-top: 4.11vw;
-  }
-  .project_info p:last-child {
-    padding-top: 2.94vw;
-  }
-  .select_tower {
-    margin: auto 4.33vw;
-    padding: 2.54vw 0;
-  }
-  .select_tower p:nth-child(3),
-  .select_tower p:nth-child(2) {
-    padding-right: 4vw;
-  }
-  .select_tower p:nth-child(3),
-  .select_tower p:nth-child(4) {
-    padding-left: 4vw;
-  }
-  .underline {
-    text-decoration-thickness: 0.333vw;
-  }
-  .icon_tower {
-    width: 6.66vw;
-    height: 6.66vw;
-    margin-right: 4.33vw;
-  }
-  .img_structure {
-    width: 124.33vw;
-    margin-left: 6.33vw;
-    margin-top: 13.33vw;
-  }
-  .arrow {
-    width: 6vw;
-    height: 30vw;
-    margin-top: 96vw;
-  }
-  .compass,
-  .compass img {
-    width: 11vw;
-    height: 11vw;
-    margin: 0;
-  }
-  .compass {
-    margin-top: 32.66vw;
-  }
-  .content_structure {
-    padding-left: 2.66vw;
-    height: 52.66vw;
-    width: 100vw;
-  }
-  .content_info {
-    height: 47.33vw;
-    width: 84vw;
-    border-radius: 2.66vw;
-    padding: 4vw;
-    margin-right: 2vw;
-  }
-  .info {
-    height: 20.75vw;
-  }
-  .img_content,
-  .img_content img {
-    width: 20.75vw;
-    height: 20.75vw;
-    margin-left: 0.2vw;
-  }
-  .img_tower {
-    margin: auto 0 auto 4.25vw;
-  }
-  .img_tower img {
-    width: 80vw;
-    border-radius: 2.66vw;
-  }
-  .select_floor_child {
-    width: 74.5vw;
-    height: 14vw;
-    padding: 0;
-  }
-  .select_number {
-    margin: 0;
-    padding: 2.66vw 0;
-    margin: 0 4vw;
-  }
-
-  .select {
-    padding: 0 3.66vw;
-    width: 21.5vw;
-  }
-  .select_floor_child img {
-    width: 5vw;
-    height: 2vw;
-  }
-  .select_number div {
-    height: 8.66vw;
-    line-height: 8.66vw;
-    width: 8.66vw;
-  }
-  .footer {
-    margin-left: 0;
-    padding-right: 0;
-  }
-  .footer img {
-    width: 30vw;
-    margin-bottom: 1vw;
-  }
-  .link_footer {
-    width: 67vw;
-  }
-  img.icon_link {
-    width: 2.016vw;
-    height: 2.016vw;
-  }
-  img.icon_link_first {
-    height: 3.66vw;
-    width: 3.66vw;
-  }
-  .icon_link,
-  .icon_link_first {
-    margin-right: 3vw;
-  }
-}
-@media only screen and (max-width: 460px) {
-  .container {
+    grid-template-columns: 384fr 96fr;
     aspect-ratio: 9/20;
-    grid-template-columns: 16fr 2fr;
-    grid-template-rows: 2fr 1fr 7.5fr 1.2fr 1.3fr;
   }
-  .project_flex_home {
-    grid-area: 1/1/2/2;
-  }
-  .select_tower {
-    grid-area: 2/1/3/2;
-  }
-  .img_tower {
-    grid-area: 3/1/4/2;
-  }
-  .select_floor {
-    grid-area: 4/1/5/2;
-  }
-  .footer {
-    grid-area: 5/1/6/2;
-  }
-  .structure {
-    grid-area: 1/2/6/2;
-  }
-  .hiden_floor {
-    display: none;
-  }
-  .hiden_lap {
-    display: block;
-  }
-  .select_floor_child {
-    flex-direction: row;
-  }
-  .select_floor_child img {
-    transform: rotate(-90deg);
-  }
-  .select_number {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    grid-column-gap: unset;
+  .tower {
+    flex-direction: column;
   }
   .footer {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+  }
+  .icon_tower {
+    width: 24rem;
+    height: 24rem;
+  }
+  .img_tower {
+    width: 348rem;
+    height: 612rem;
+    margin: 0;
+  }
+  .select_floor {
+    flex-direction: row;
+  }
+  .floors {
+    margin: 0;
+    width: 300rem;
+    justify-content: space-between;
+  }
+  .floor {
+    width: 36rem;
+    height: 36rem;
+    line-height: 36rem;
+  }
+  .departments {
+    height: 274.66rem;
+  }
+  .hidden_lt {
+    display: block;
   }
 }
