@@ -1,129 +1,168 @@
+@media only screen and (max-aspect-ratio: 1940/1050) and (min-width: 768px) {
+  html {
+    font-size: 0.0515463917525773vw;
+  }
+  .container {
+    width: 100vw;
+    height: unset;
+  }
+}
+@media only screen and (min-aspect-ratio: 1940/1050) and (min-width: 768px) {
+  html {
+    font-size: 0.0952380952380952vh;
+  }
+  .container {
+    width: unset;
+    height: 100vh;
+  }
+}
+@media only screen and (max-aspect-ratio: 3/4) and (max-width: 768px) {
+  html {
+    font-size: 0.1302083333333333vw;
+  }
+  .container {
+    width: 100vw;
+    height: unset;
+  }
+}
+@media only screen and (min-aspect-ratio: 3/4) and (max-width: 768px) {
+  html {
+    font-size: 0.09765625vh;
+  }
+  .container {
+    width: unset;
+    height: 100vh;
+  }
+}
+@media only screen and (max-aspect-ratio: 9/20) and (max-width: 480px) {
+  html {
+    font-size: 0.2083333333333333vw;
+  }
+  .container {
+    width: 100vw;
+    height: unset;
+  }
+}
+@media only screen and (min-aspect-ratio: 9/20) and (max-width: 480px) {
+  html {
+    font-size: 0.0937499999970703vh;
+  }
+  .container {
+    width: unset;
+    height: 100vh;
+  }
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.125;
   font-family: Arial;
+  line-height: 1.125;
 }
 body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
 }
 .container {
   display: grid;
-  grid-template-columns: 670fr 1250fr;
+  grid-template-columns: 670fr 1270fr;
+  aspect-ratio: 1940 / 1050;
   background-color: white;
-  aspect-ratio: 1920/1050;
 }
-.select_tower,
-.tower,
-.select_floor,
-.footer,
-.contact,
-.link,
-.departments,
-.department {
-  display: flex;
+.container_left {
+  padding: 60rem 48rem 0;
+}
+.container_right {
+  background-image: url("../ảnh/Rectangle.png");
+  overflow: hidden;
+  background-size: cover;
+}
+.select_tower {
+  padding: 12rem 0;
   align-items: center;
 }
-.icon_tower {
-  width: 36rem;
-  height: 36rem;
+.big_tower {
+  align-items: center;
 }
-.img_tower {
-  width: 334rem;
-  height: 588rem;
-  box-shadow: 5rem 5rem 5rem rgba(0, 0, 0, 0.2);
-}
-.select_floor {
-  flex-direction: column;
-}
-.up,
-.down {
-  width: 36rem;
-  height: 12rem;
-}
-.left,
-.right {
-  height: 36rem;
-  width: 12rem;
-}
-.floors {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24rem;
-}
-.floor {
-  width: 48rem;
-  height: 48rem;
-  line-height: 48rem;
-  text-align: center;
-}
-.select {
-  position: absolute;
-  font-weight: 700;
-  background-color: white;
-  white-space: nowrap;
-  left: 50%;
-  top: 0;
-  transform: translate(-50%, -60%);
-}
-.footer,
-.department {
+
+.footer {
+  align-items: center;
   justify-content: space-between;
 }
-.img_footer {
-  width: 168rem;
-  height: 48rem;
-}
-.link img {
-  width: 18rem;
-  height: 18rem;
-}
-.structure_content {
-  background-image: url("../ảnh/Rectangle.png");
-  background-size: cover;
-  overflow: hidden;
-}
-.structure_floor {
-  display: flex;
-}
-.next_floor {
-  width: 36rem;
-  height: 144rem;
-}
-.img_structure {
-  width: 698rem;
-  height: 624rem;
-}
-.compass {
+.container_right > img {
   width: 96rem;
   height: 96rem;
 }
-.departments {
-  width: 1800rem;
+.container_right > div:first-child {
+  width: 1270rem;
+}
+.rooms {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
   height: 258rem;
+  width: 1656rem;
+  padding-left: 24rem;
 }
-.department {
-  width: 384rem;
-  height: 210rem;
+h1 {
+  font-size: 36rem;
 }
-.department img {
+.select_tower > img {
+  width: 36rem;
+  height: 36rem;
+}
+.big_tower > img {
+  width: 334rem;
+  height: 588rem;
+  box-shadow: 5rem 5rem 5rem rgba(0, 0, 0, 0.2);
+  margin-right: 48rem;
+}
+.footer > img {
+  width: 168rem;
+  height: 48rem;
+}
+.contact,
+.contact_item {
+  align-items: center;
+}
+.arrow_left {
+  margin-top: 276rem;
+  margin-right: 250rem;
+  width: 36rem;
+  height: 144rem;
+}
+.map_floor {
+  width: 698rem;
+  height: 624rem;
+  margin-top: 72rem;
+}
+.room:first-child {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.select_floor {
+  padding: 18rem 0;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 24rem;
+}
+.room > img {
   width: 162rem;
   height: 162rem;
 }
-.department_info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.floor:first-child {
+  background-color: black;
   color: white;
 }
-.hidden_lt {
-  display: none;
+.select_floor > p {
+  position: absolute;
+  padding: 0 12rem;
+  background-color: white;
+  white-space: nowrap;
+  left: 50%;
+  top: -11rem;
+  transform: translateX(-50%);
+  color: #3b3b3b;
 }

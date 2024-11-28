@@ -1,41 +1,41 @@
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .container {
     grid-template-columns: 384fr 96fr;
     aspect-ratio: 9/20;
   }
-  .tower {
-    flex-direction: column;
+  .container_left {
+    padding: 48rem 18rem 0;
   }
+  .big_tower,
   .footer {
     flex-direction: column;
-    justify-content: flex-start;
   }
-  .icon_tower {
+  .rooms {
+    height: 274.66rem;
+  }
+  h1 {
+    font-size: 24rem;
+  }
+  .select_tower > img {
     width: 24rem;
     height: 24rem;
   }
-  .img_tower {
+  .big_tower > img {
     width: 348rem;
     height: 612rem;
-    margin: 0;
+    margin-right: 0;
+  }
+  .big_tower > div {
+    display: flex;
+    align-items: center;
   }
   .select_floor {
-    flex-direction: row;
-  }
-  .floors {
-    margin: 0;
-    width: 300rem;
+    margin: 0 12rem;
+    padding: 12rem 0;
     justify-content: space-between;
+    width: 300rem;
   }
-  .floor {
-    width: 36rem;
-    height: 36rem;
-    line-height: 36rem;
-  }
-  .departments {
-    height: 274.66rem;
-  }
-  .hidden_lt {
-    display: block;
+  .select_floor > p {
+    top: -8rem;
   }
 }

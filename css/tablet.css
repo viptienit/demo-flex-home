@@ -1,9 +1,12 @@
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     grid-template-columns: 670fr 98fr;
     aspect-ratio: 3/4;
   }
-  .departments {
+  .rooms {
     height: 232rem;
+  }
+  .arrow_left {
+    margin-right: 24rem;
   }
 }
